@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/andresdev/AndroidStudioProjects/DirectorioAcacias/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.1.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="/home/andresdev/AndroidStudioProjects/DirectorioAcacias/app/build/intermediates/pre-dexed/debug/classes-7e529d1006cb745f155018bbdf5c7b0f8d744556.jar" />
+    </item>
+    <item
+        jar="/root/Android/Sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/andresdev/AndroidStudioProjects/DirectorioAcacias/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-e3727c20cef8b1ac8b518610d94da343436a419a.jar" />
+    </item>
+
+</items>

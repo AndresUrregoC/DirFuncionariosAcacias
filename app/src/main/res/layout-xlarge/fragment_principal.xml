@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    android:orientation="vertical"
+     
+     >
+     
+    
+    <android.support.v4.widget.SwipeRefreshLayout
+    android:id="@+id/swipe_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+ 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:id="@+id/tvConexion"
+        android:layout_height="40dp"
+        android:text="@string/noconex"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:visibility="gone"
+        android:background="#EE3E3E"
+        />
+    
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="220dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp" >
+
+        <TextView
+            android:id="@+id/tvDirectorio"
+            android:layout_width="469dp"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="@string/directorio"
+            android:textColor="#f82"
+            android:textSize="52sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="21.05"
+            android:src="@drawable/logo" 
+            android:contentDescription="@string/title_activity_splash"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ibBuscar2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:src="@drawable/action_search"
+        android:contentDescription="@string/title_activity_splash" /> 
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center"
+        android:layout_marginTop="20dp" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="25dp" >
+
+            <ImageView
+                android:id="@+id/ivNombre"
+                android:layout_width="380dp"
+                android:layout_height="280dp"
+                android:src="@drawable/nom"
+                android:contentDescription="@string/title_activity_splash" />
+
+            <ImageView
+                android:id="@+id/ivServicio"
+                android:layout_width="360dp"
+                android:layout_height="280dp"
+                android:src="@drawable/syt" 
+                android:layout_marginLeft="20dp"
+                android:contentDescription="@string/title_activity_splash"/>
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/ivCargo"
+                android:layout_width="360dp"
+                android:layout_height="280dp"
+                android:src="@drawable/car"
+                android:contentDescription="@string/title_activity_splash"
+                />
+
+            <ImageView
+                android:id="@+id/ivSecretaria"
+                android:layout_width="360dp"
+                android:layout_height="280dp"
+                android:src="@drawable/sec"
+                android:layout_marginLeft="20dp" 
+                android:contentDescription="@string/title_activity_splash"/>
+        </TableRow>
+    </TableLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:gravity="bottom"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:contentDescription="@string/title_activity_splash"
+            android:paddingBottom="10dp"
+            android:src="@drawable/footer" />
+
+    </RelativeLayout>
+    
+    </LinearLayout>
+    
+   </ScrollView>
+ 
+</android.support.v4.widget.SwipeRefreshLayout>     
+
+</LinearLayout>
